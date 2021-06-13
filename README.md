@@ -17,3 +17,7 @@ training random user generator API.
 6. reference main.js file
 
 7. Demo
+
+![image](https://user-images.githubusercontent.com/85299566/121800868-c6dc7800-cc66-11eb-8f27-3c4656fbe36c.png)
+
+
