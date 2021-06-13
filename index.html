@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>training user generator API</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div style="margin:10px;">
+        <button type="button" class="btn btn-primary" onclick="randomUser()">Random user</button>
+        <br />
+
+        <h1 id="userName"></h1>
+        <div><img id="userImage" width="150px;" height="150px;"/></div>
+        <div id="userEmail"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
